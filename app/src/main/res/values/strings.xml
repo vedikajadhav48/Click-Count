@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClickCount</string>
+    <string name="initial_count">0</string>
+    <string name="click_button">Click</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
