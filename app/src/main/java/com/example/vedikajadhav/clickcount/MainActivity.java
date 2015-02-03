@@ -2,6 +2,7 @@ package com.example.vedikajadhav.clickcount;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,6 +29,8 @@ public class MainActivity extends ActionBarActivity {
                 count++;
                 mInitialCount.setText(String.valueOf(count));
             }
+
+            Log.d("Sample", "test");
         });
     }
 
